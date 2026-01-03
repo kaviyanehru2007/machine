@@ -62,9 +62,10 @@ def predict_image(img_path):
     prediction = svm.predict([img])
 
     if prediction[0] == 0:
-        print("Prediction: Cat 🐱")
+        print("Prediction: Cat ")
     else:
-        print("Prediction: Dog 🐶")
+        print("Prediction: Dog ")
 
 # Example test
+
 # predict_image("test_image.jpg")
